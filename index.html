@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10131a" />
+  <meta name="description" content="A small anniversary page for Lia — My Bee." />
+  <title>For My Bee — 23 September</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-blue"></div>
+  <div class="ambient ambient-pink"></div>
+  <div class="grain"></div>
+
+  <audio id="ourSong" loop preload="auto">
+    <source src="assets/kota-ini-tak-sama-tanpamu.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Putar atau jeda lagu">
+    <span class="music-dot"></span>
+    <span id="musicLabel">Play our song</span>
+  </button>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-shell">
+        <div class="hero-art reveal">
+          <div class="hero-orbit hero-orbit-one"></div>
+          <div class="hero-orbit hero-orbit-two"></div>
+          <img src="assets/illustrated-us.png" alt="Ilustrasi romantis Lia dan pasangan" />
+          <span class="hero-art-note">us, in another little universe ✦</span>
+        </div>
+
+        <div class="hero-inner reveal">
+          <p class="eyebrow">23 SEPTEMBER 2025 — 23 SEPTEMBER 2026</p>
+          <h1>Do you still remember<br><em>that, my Bee?</em></h1>
+          <p class="hero-copy">
+            One year ago, I didn't know that a random number, a little awkwardness,
+            and a lot of small conversations would quietly lead me to you.
+          </p>
+          <button id="enterStory" class="primary-btn">Open our story <span>↓</span></button>
+        </div>
+      </div>
+      <div class="scroll-note">made for Lia, from someone who still gets happy seeing you.</div>
+    </section>
+
+    <section id="story" class="section story-section">
+      <div class="section-grid">
+        <div class="story-copy reveal">
+          <p class="eyebrow">CHAPTER 01 · BEFORE “US”</p>
+          <h2>Awalnya cuma <em>“dijodohin.”</em></h2>
+          <p>
+            Lucunya, semua ini malah berawal dari Ayah yang lebih dulu punya ide.
+            Waktu itu aku belum terlalu tertarik. Biasa aja. Nggak ada firasat kalau
+            nanti kamu bakal jadi orang yang paling sering aku cari.
+          </p>
+          <p>
+            Tapi hari demi hari, aku mulai suka ngelirik kamu. Ternyata kamu cantik.
+            Terus tiap kamu salting waktu lihat aku, entah kenapa aku malah senang.
+            Ada sesuatu yang sederhana dari kamu yang bikin suasana jadi lebih ringan.
+          </p>
+        </div>
+        <figure class="photo-card reveal">
+          <img src="assets/our-story.jpg" alt="Kolase kenangan bersama Lia" />
+          <figcaption>Sejak hari itu, hal-hal kecil mulai terasa beda.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section message-section">
+      <div class="message-wrap">
+        <div class="chat-copy reveal">
+          <p class="eyebrow">CHAPTER 02 · THE NUMBER</p>
+          <h2>Satu nomor yang ternyata<br><em>bukan nomor temannya.</em></h2>
+          <p>
+            Aku masih inget waktu salah satu orang di tempat kamu kerja ngerjain aku.
+            Aku pikir yang dikasih itu nomor temenmu. Ternyata… nomor kamu.
+          </p>
+          <p>
+            Canggung? Banget. Tapi mungkin justru dari situ semuanya mulai bergerak.
+            Aku memberanikan diri buat kenalan, basa-basi, ngobrol, lalu perlahan
+            saling cerita.
+          </p>
+
+          <button id="numberJoke" class="tiny-joke">“Nomor aku siapa?”</button>
+          <div id="jokeAnswer" class="joke-answer" aria-live="polite"></div>
+        </div>
+
+        <figure class="phone-card reveal">
+          <div class="phone-top">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="assets/first-chat.jpg" alt="Screenshot percakapan pertama dengan Lia" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section timeline-section">
+      <div class="timeline-head reveal">
+        <p class="eyebrow">CHAPTER 03 · SOMEHOW, IT BECAME HOME</p>
+        <h2>Nggak langsung jatuh cinta.<br><em>Tapi pelan-pelan jatuh nyaman.</em></h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="timeline-num">01</span>
+          <div>
+            <h3>Dijodohin Ayah</h3>
+            <p>Awalnya aku bahkan belum mikir sejauh itu tentang kamu.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-num">02</span>
+          <div>
+            <h3>Mulai Suka Ngelirik</h3>
+            <p>Kemudian aku sadar: ternyata lihat kamu bisa bikin mood aku bagus.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-num">03</span>
+          <div>
+            <h3>Nomor yang “Salah”</h3>
+            <p>Dari sedikit prank, lahir alasan buat akhirnya benar-benar kenalan.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-num">04</span>
+          <div>
+            <h3>Ngobrol & Saling Cerita</h3>
+            <p>Dari basa-basi, jadi saling dengar. Dari cerita kecil, jadi saling support.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-num">05</span>
+          <div>
+            <h3>23 September 2025</h3>
+            <p>Dan akhirnya, ada tanggal yang sejak itu selalu punya arti lain buat kita.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="section memories-section">
+      <div class="memories-wrap">
+        <div class="memories-head reveal">
+          <p class="eyebrow">CHAPTER 04 · OUR LITTLE UNIVERSE</p>
+          <h2>Beberapa momen yang<br><em>pengen aku simpan lama.</em></h2>
+          <p>
+            Nggak semua momen harus besar buat jadi berarti. Kadang cuma foto random,
+            senyum di kaca, atau satu malam biasa yang ternyata jadi kenangan favorit.
+          </p>
+        </div>
+
+        <div class="memories-stage">
+          <figure class="memory-photo memory-photo-one reveal">
+            <img src="assets/mirror-memory.jpg" alt="Kenangan foto bersama di depan cermin" />
+            <figcaption>that night, that smile, that us.</figcaption>
+          </figure>
+
+          <figure class="memory-photo memory-photo-two reveal">
+            <img src="assets/night-selfie.jpg" alt="Foto berdua di malam hari" />
+            <figcaption>kalau sama kamu, momen biasa pun jadi punya cerita.</figcaption>
+          </figure>
+        </div>
+
+        <div class="memory-quote reveal">
+          <span>“</span>
+          <p>
+            Kalau suatu hari kita lupa detail-detail kecilnya, semoga foto-foto ini
+            selalu bisa ngingetin kalau kita pernah sebahagia ini di hari-hari yang sederhana.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section count-section">
+      <div class="count-card reveal">
+        <p class="eyebrow">ONE YEAR WITH YOU</p>
+        <div class="big-number">365</div>
+        <p class="days-label">days since “us” began.</p>
+        <div class="count-divider"></div>
+        <p class="count-copy">
+          Bukan 365 hari yang semuanya sempurna. Tapi 365 hari di mana kita belajar
+          mengenal versi satu sama lain yang nggak selalu rapi—dan tetap memilih
+          buat ada.
+        </p>
+      </div>
+    </section>
+
+    <section class="section love-section">
+      <div class="love-head reveal">
+        <p class="eyebrow">WHAT I LOVE ABOUT US</p>
+        <h2>Bukan cuma soal kejutan romantis.</h2>
+      </div>
+
+      <div class="love-grid">
+        <article class="love-card reveal">
+          <span>01</span>
+          <h3>Tempat buat jadi diri sendiri</h3>
+          <p>
+            Aku suka waktu kita bisa bar-bar, ketawa nggak jelas, dan nggak perlu
+            kelihatan sempurna di depan satu sama lain.
+          </p>
+        </article>
+        <article class="love-card reveal">
+          <span>02</span>
+          <h3>Pelukan yang terasa seperti pulang</h3>
+          <p>
+            Aku pengen selalu jadi tempat kamu merasa aman, tenang, dan tahu kalau
+            ada seseorang yang berdiri di sisi kamu.
+          </p>
+        </article>
+        <article class="love-card reveal">
+          <span>03</span>
+          <h3>Hal kecil yang tetap aku tunggu</h3>
+          <p>
+            Cara kamu salting, ekspresi kamu, obrolan random, sampai kejutan-kejutan
+            kecil yang bikin hari biasa jadi punya cerita.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section letter-section">
+      <div class="letter reveal">
+        <p class="letter-date">23 September 2026</p>
+        <h2>For Lia, <em>my Bee.</em></h2>
+
+        <p>
+          Bee, aku mungkin nggak selalu paling jago nyusun kata-kata. Tapi satu hal
+          yang aku tahu: setelah satu tahun ini, aku masih mau punya banyak hari
+          berikutnya sama kamu.
+        </p>
+        <p>
+          Aku mau kita tetap punya ruang buat tumbuh, buat salah, buat belajar,
+          buat saling tegur, buat saling dukung, dan tetap punya alasan buat pulang
+          ke satu sama lain setelah hari yang panjang.
+        </p>
+        <p>
+          Aku nggak cuma pengen merayakan tanggal 23 September tiap tahun. Aku pengen
+          suatu hari nanti kita bisa lihat ke belakang dan bilang: ternyata dari nomor
+          yang “salah” itu, kita berhasil membangun sesuatu yang benar.
+        </p>
+        <p>
+          Semoga langkah kita sampai pada hari di mana “pacaran” berubah jadi rumah,
+          janji berubah jadi kehidupan bersama, dan rambut kita pelan-pelan memutih.
+          Dan ketika suatu hari waktunya masing-masing pulang kepada-Nya, semoga kita
+          pernah menjalani hidup ini dengan baik—bersama.
+        </p>
+
+        <div class="signature">
+          <span>Happy 1st Anniversary, Bee.</span>
+          <strong>Still you. Still us. 🤍</strong>
+        </div>
+
+        <button id="oneMoreThing" class="secondary-btn">One more thing…</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>23.09.2025 → forever is built one day at a time.</p>
+    </footer>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="closeModal" class="close-modal" aria-label="Tutup">×</button>
+      <p class="eyebrow">A SMALL PROMISE</p>
+      <h2 id="modalTitle">Kalau nanti harinya berat…</h2>
+      <p>
+        jangan lupa ya, Bee—kita pernah memulai semuanya dari rasa canggung.
+        Jadi selama kita masih mau ngobrol, saling dengar, dan memilih satu sama lain,
+        selalu ada jalan buat kembali saling menemukan.
+      </p>
+      <p class="modal-final">I choose you today. Besok, kita pilih lagi. 🤍</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
